@@ -5,7 +5,7 @@
 #define PWM_PIN 22  // Pino do servomotor
 
 // Parâmetros do PWM
-const float FREQ_PWM = 60.0;        // Frequência do PWM (50 Hz)
+const float FREQ_PWM = 50.0;        // Frequência do PWM (50 Hz)
 const float FREQ_CLOCK = 125000000; // Frequência do clock do RP2040 (125 MHz)
 const float CLK_DIV = 125.0;        // Divisor de clock fixo para simplificar
 
