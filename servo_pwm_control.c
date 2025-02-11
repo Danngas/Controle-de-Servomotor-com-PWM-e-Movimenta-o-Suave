@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
-#define PWM_PIN 13  // Pino do servomotor
+#define PWM_PIN 22  // Pino do servomotor
 
 // Parâmetros do PWM
 const float FREQ_PWM = 60.0;        // Frequência do PWM (50 Hz)
