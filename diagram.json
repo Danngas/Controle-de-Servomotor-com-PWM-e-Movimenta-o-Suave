@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "author": "Daniel Silav de Souza",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "board-pi-pico-w",
+        "id": "pico",
+        "top": -70.45,
+        "left": -130.85,
+        "attrs": { "builder": "pico-sdk" }
+      },
+      { "type": "wokwi-servo", "id": "servo1", "top": -88.4, "left": 67.2, "attrs": {} },
+      { "type": "wokwi-led-rgb", "id": "led_rgb", "top": -50, "left": 50, "attrs": {} }
+    ],
+    "connections": [
+      [ "pico:GND.8", "servo1:GND", "#8f4814", [ "h0" ] ],
+      [ "pico:3V3", "servo1:V+", "red", [ "v-9.6", "h67.51" ] ],
+      [ "pico:GP22", "servo1:PWM", "orange", [ "h9.91", "v-67.4" ] ],
+      [ "pico:GND.9", "led_rgb:GND", "black", [ "h0" ] ],
+      [ "pico:3V3", "led_rgb:VCC", "red", [ "h0" ] ],
+      [ "pico:GP12", "led_rgb:IN", "blue", [ "h0" ] ]
+    ],
+    "dependencies": {}
+  }
