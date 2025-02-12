@@ -1,7 +1,8 @@
 # 🚀 **Projeto: Controle de Servomotor com PWM e Movimentação Suave**  
 
+Daniel Silva de Souza 
 
-### [Vídeo Demonstrativo do Projeto](https://)
+### [Vídeo Demonstrativo do Projeto](https://youtu.be/ySnWEi8imIY)
 
 ## 📌 **Descrição**  
 
@@ -63,9 +64,9 @@ Este projeto utiliza um RP2040 (Raspberry Pi Pico) para controlar a movimentaç�
 
 ---
 
-## 🎥 **Demonstração**  
+## 🎥 **Demonstração SIMULAçÃO**  
 
-**Vídeo** que mostra o movimento suave, o controle do servo e mais!
+**Vídeo** [Simulation](https://wokwi.com/projects/422629140957778945)
 
 ---
 
@@ -84,5 +85,5 @@ Este projeto utiliza um RP2040 (Raspberry Pi Pico) para controlar a movimentaç�
 
 1. **Clonar o repositório**  
    ```sh
-   git clone https://github.com/Controle_Servomotor_PWM.git
+   git clone [https://github.com/Controle_Servomotor_PWM.git](https://github.com/Danngas/Controle-de-Servomotor-com-PWM-e-Movimenta-o-Suave.git)
    cd Controle_Servomotor_PWM
